@@ -54,7 +54,7 @@ function changeToMonuments() {
 
 function nextMonument1() {
     var changeMonument1 = document.getElementById("background");
-    changeMonument1.setAttribute("src", "#sydneyOpera");
+    changeMonument1.setAttribute("src", "#911");
     var monumentCommands2= document.getElementById("monument2")
     monumentCommands2.setAttribute("visible", "true")
     var monumentCommands1 = document.getElementById("monument1")
@@ -63,14 +63,14 @@ function nextMonument1() {
    console.log("why does this not work")
 }
 
-function nextMonument2() {
-    var changeMonument2 = document.getElementById("background");
-    changeMonument2.setAttribute("src", "#911");
-    var monumentCommands3= document.getElementById("monument3")
-    monumentCommands3.setAttribute("visible", "true")
-    var monumentCommands2 = document.getElementById("monument2")
-    monumentCommands2.setAttribute("visible", "false")
-}
+// function nextMonument2() {
+//     var changeMonument2 = document.getElementById("background");
+//     changeMonument2.setAttribute("src", "#911");
+//     var monumentCommands3= document.getElementById("monument3")
+//     monumentCommands3.setAttribute("visible", "true")
+//     var monumentCommands2 = document.getElementById("monument2")
+//     monumentCommands2.setAttribute("visible", "false")
+// }
 
 function changeToParks() {
     var parkChange = document.getElementById("background");
